@@ -1,14 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116679066-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-116679066-3');
-</script>
-
-
 <?php
 include('header.php');
 if (!isset($_SESSION['uid']))
@@ -32,17 +21,26 @@ if (!isset($_SESSION['uid']))
 include('footer.php');
 ?>
 <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116679066-3');
+
     var isLoading = false;
     var start = 0;
     var limit = 2;
     var reachedMax = false;
 
     $(window).scroll(function() {
-        //console.log("scrolltop: "+$(window).scrollTop()+" value: "+($(document).height() - $(window).height()-56));
+        console.log("scrolltop: " + $(window).scrollTop() + " value: " + ($(document).height() - $(window).height() - 56));
         if (($(window).scrollTop() == $(document).height() - $(window).height() - 56) || ($(window).scrollTop() == $(document).height() - $(window).height())) {
 
             if (!isLoading) {
-                //console.log("fetching...");
+                console.log("fetching...");
                 getData();
             }
         }
