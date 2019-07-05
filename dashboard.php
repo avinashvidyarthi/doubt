@@ -36,11 +36,11 @@ include('footer.php');
     var reachedMax = false;
 
     $(window).scroll(function() {
-        console.log("scrolltop: " + $(window).scrollTop() + " value: " + ($(document).height() - $(window).height() - 56));
+        //console.log("scrolltop: " + $(window).scrollTop() + " value: " + ($(document).height() - $(window).height() - 56));
         if (($(window).scrollTop() == $(document).height() - $(window).height() - 56) || ($(window).scrollTop() == $(document).height() - $(window).height())) {
 
             if (!isLoading) {
-                console.log("fetching...");
+                //console.log("fetching...");
                 getData();
             }
         }
