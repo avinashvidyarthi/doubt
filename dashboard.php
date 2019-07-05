@@ -10,9 +10,11 @@ if (!isset($_SESSION['uid']))
 
         </div>
     </div>
-    <div class="loading" style="margin: auto;">
+    <center>
+        <div class="loading" style="margin: auto;">
 
-    </div>
+        </div>
+    </center>
 </div>
 
 <?php
@@ -65,7 +67,7 @@ include('footer.php');
                 }
             },
             beforeSend: function() {
-                $(".loading").html("<img src='images/loading.gif' style='margin: 10px auto'>");
+                $(".loading").html("<img src='images/loading.gif' style='margin: auto'>");
             }
         });
     }
