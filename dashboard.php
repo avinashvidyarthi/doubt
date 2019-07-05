@@ -17,11 +17,11 @@ include('footer.php');
 ?>
 <script type="text/javascript">
             var start = 0;
-            var limit = 5;
+            var limit = 3;
             var reachedMax = false;
 
             $(window).scroll(function () {
-                if ($(window).scrollTop() >= $(document).height() - $(window).height())
+                if ($(window).scrollTop() == $(document).height() - $(window).height()-10)
                     getData();
             });
 
