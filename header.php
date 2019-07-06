@@ -7,13 +7,31 @@ include('dbcon.php');
 
 <head>
 
-  <meta property="og:image" content="data/glyphy.png" />
-  <meta property="og:title" content="Doubt Clearance Cell:RD Technicals" />
-  <meta property="og:description" content="Clear your doubt with Doubt Clearance Cell: RD Technicals" />
+  <!-- fb & Whatsapp -->
+
+  <!-- Site Name, Title, and Description to be displayed -->
+  <meta property="og:site_name" content="Doubt Clearance Cell:RD Technicals">
+  <meta property="og:title" content="Doubt Clearance Cell:RD Technicals">
+  <meta property="og:description" content="Clear your doubt with Doubt Clearance Cell: RD Technicals">
+
+  <!-- Image to display -->
+  <!-- Replace   «example.com/image01.jpg» with your own -->
+  <meta property="og:image" content="data/glyphy.png">
+
+  <!-- No need to change anything here -->
+  <meta property="og:type" content="website" />
+  <meta property="og:image:type" content="image/jpeg">
+
+  <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+
+  <!-- Website to visit when clicked in fb or WhatsApp-->
+  <meta property="og:url" content="http://doubt-avi.herokuapp.com">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Clear your doubt with Doubt Clearance Cell: RD Technicals">
+  <!-- <meta name="description" content="Clear your doubt with Doubt Clearance Cell: RD Technicals"> -->
 
 
 
