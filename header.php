@@ -16,7 +16,7 @@ include('dbcon.php');
 
   <!-- Image to display -->
   <!-- Replace   «example.com/image01.jpg» with your own -->
-  <meta property="og:image" content="data/glyphy.png">
+  <meta property="og:image" content="http://doubt-avi.herkouapp.com/data/glyphy.png">
 
   <!-- No need to change anything here -->
   <meta property="og:type" content="website" />
