@@ -16,7 +16,7 @@ include('dbcon.php');
 
   <!-- Image to display -->
   <!-- Replace   «example.com/image01.jpg» with your own -->
-  <meta property="og:image" content="http://doubt-avi.herkouapp.com/data/glyphy.png">
+  <meta property="og:image" itemprop="image" content="http://doubt-avi.herkouapp.com/data/glyphy.png">
 
   <!-- No need to change anything here -->
   <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ include('dbcon.php');
   <meta property="og:image:height" content="300">
 
   <!-- Website to visit when clicked in fb or WhatsApp-->
-  <meta property="og:url" content="http://doubt-avi.herokuapp.com">
+  <meta property="og:url"  content="http://doubt-avi.herokuapp.com">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
